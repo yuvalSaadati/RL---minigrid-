@@ -38,17 +38,17 @@ To standardize training and evaluation, fixed positions for the key and door are
 ## Reward Shaping
 
 ### Left Action:
-- Penalty of -20 if the door is opening; otherwise, -5. The left action is rarely chosen by the agent.
+- Penalty of -20 if the door is opening; otherwise, -7. The left action is rarely chosen by the agent.
 
 ### Right Action:
 - 10 points if the agent faces an open door directly.
-- 0 points if the door is open but the agent isn't in front of it.
 - -1 point otherwise.
 
 ### Forward Action:
 - Severe penalty of -100 points if a wall blocks the agent's path.
-- 5 points if the agent faces an open door.
-- 2 points otherwise. The forward action yields the highest reward in challenging scenarios due to its frequent necessity.
+- 10 points if the agent faces an open door.
+- 7 points otherwise. The forward action yields the highest reward in challenging scenarios due to its frequent necessity.
+- 5 point otherwise.
 
 ### Toggle Action:
 - 100 points if the agent carries the key and the door is open.
