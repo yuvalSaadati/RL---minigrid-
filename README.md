@@ -71,7 +71,7 @@ To get started with the project, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
+   git clone [https://github.com/yourusername/your-repository.git](https://github.com/yuvalSaadati/RL---minigrid-.git)
    
 ### Training the Agent
 
