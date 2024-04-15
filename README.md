@@ -1,7 +1,5 @@
 # Reinforcements Learning - solving minigrid environment
 
-# Reinforcement Learning Project
-
 ## Analyzing the Environment
 
 The environments in our project are characterized as **Markov Decision Processes (MDP)** due to their adherence to the fundamental components of an MDP framework: state representation, action space, transition probabilities, rewards, and policy formulation.
